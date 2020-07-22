@@ -1,10 +1,16 @@
 import React from 'react';
-import { View } from 'react-native';
-
-// import { Container } from './styles';
+import { View, Text } from 'react-native';
 
 const Profile: React.FC = () => {
-  return <View />;
+  return (
+    <View style={{
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <Text>Profile</Text>
+    </View>
+  );
 }
 
 export default Profile;

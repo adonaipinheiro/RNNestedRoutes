@@ -8,7 +8,7 @@ const App: React.FC = () => {
       justifyContent: 'center',
       alignItems: 'center'
     }}>
-      <Text>Hello World</Text>
+      <Text>Hello World!</Text>
     </View>
   );
 }
